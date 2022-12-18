@@ -1,0 +1,32 @@
+{
+  "name": "bug-tracker-backend",
+  "version": "1.0.0",
+  "description": "The backend for the web app to track the life cycle of reported bugs in a software.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ghm:2brownc/bug-tracker-backend.git"
+  },
+  "author": "Brown",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4",
+    "typescript-language-server": "^2.2.0",
+    "vscode-langservers-extracted": "^4.5.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "mongoose": "^6.8.0",
+    "pusher": "^5.1.2"
+  }
+}
